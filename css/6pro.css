@@ -1,0 +1,32 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* entire body font start */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* entire body font end */
+
+
+/* intro button properties start */
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: gold;
+    background-color: white);
+}
+/* intro button properties end */
+
+/* intro background properties start */
+.introbackground {
+
+
+
+
+
+}
+/* intro background properties end */
