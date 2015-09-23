@@ -12,6 +12,14 @@ body {
 /* entire body font end */
 
 
+/* Start 6Pro Navbar Logo Properties */
+.logo {
+    height: 32px;
+    width:  80px;
+}
+/* End of 6Pro Navbar Logo Properties */
+
+
 /* intro button properties start */
 .btn-dark:hover,
 .btn-dark:focus,
@@ -25,10 +33,24 @@ body {
 
 /* intro background properties start */
 .introbackground {
-
-
-
-
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 30em;
+    background: url(../img/pro.jpeg) no-repeat center center scroll;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 
 }
 /* intro background properties end */
+
+.blackBackground{
+    background: black;
+}
+
+.rowHeight{
+    height: 100%;
+}
