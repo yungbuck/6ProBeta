@@ -2,28 +2,52 @@ html,
 body {
     width: 100%;
     height: 100%;
+    text-decoration-color: white;
 }
 /* Start Cursive Font */
-.cursive {
+.big-cursive {
     font-family: 'Dancing Script', cursive;
+    font-size: 8em;
 }
 /* End Cursive Font */
 
+/* Start Custom Intro Button*/
+.btn-custom {
+    color: gold;
+    background-color: transparent;
+    border-color: transparent;
+}
+/* End Custom Intro Button */
 
-/* Start Div Center position Class */
-.div-center{
+
+
+
+
+/* Start Intro Button Padding Top*/
+.intro-btn-padding{
     position: absolute;
     top: 90%;
 
 }
-/* End Div Center Postion Class */
+/* End Intro Button Padding Top*/
+
+
+
+/*Start Text Shadow */
+.black-text-shadow {
+    text-shadow: 1px 1px 1px #000000;
+}
+/* End Text Shadow */
+
+
 
 
 /* Start Title Size */
 .title-size {
-    font-size:6em;
+    font-size: 3em;
 }
 /* End Title Size */
+
 
 /* Start Sub-Title Size */
 .sub-title-size{
@@ -45,7 +69,7 @@ body {
 /* Start Intro Text Padding */
 .text-intro-padding{
     position: relative;
-    top: 4em;
+    top: 6em;
 }
 /* End Intro Text Padding */
 
@@ -60,8 +84,8 @@ body {
 
 /* Start 6Pro Navbar Logo Properties */
 .logo {
-    height: 32px;
-    width:  80px;
+    height: 40px;
+    width:  98px;
 }
 /* End of 6Pro Navbar Logo Properties */
 
@@ -83,7 +107,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/cleancity.jpg) no-repeat center center scroll;
+    background: url(../img/newyork.jpg) no-repeat center center scroll;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
