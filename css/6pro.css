@@ -165,11 +165,49 @@ body {
 }
 /* End Section 3 Div Background */
 
+/* start page 3 subtitle size */
+.page-3-subtitle-size {
+    font-size: 3em;
+}
+/* end page 3 subtitle size */
+
 /* Start Div 3 text Padding */
 .page-3-text-padding {
     padding-top: 6em;
 }
 /* End Div 3 text Padding */
+
+
+
+
+/* Start Section 4 Div Background */
+.section-4-background {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/deliver.jpeg) no-repeat center center scroll;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/* End Section 4 Div Background */
+
+/* start page 4 subtitle size */
+.page-4-subtitle-size {
+    font-size: 3em;
+}
+/* end page 4 subtitle size */
+
+/* Start Div 4 text Padding */
+.page-4-text-padding {
+    padding-top: 6em;
+}
+/* End Div 4 text Padding */
+
+
 
 
 
