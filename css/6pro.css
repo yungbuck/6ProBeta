@@ -90,7 +90,7 @@ body {
 /* End of 6Pro Navbar Logo Properties */
 
 
-/* intro button properties start */
+/* Start intro button properties start */
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
@@ -99,10 +99,10 @@ body {
 }
 
 
-/* intro button properties end */
+/* End intro button properties end */
 
-/* intro background properties start */
-.introbackground {
+/* Start intro background properties start */
+.intro-background {
     display: table;
     position: relative;
     width: 100%;
@@ -115,7 +115,61 @@ body {
     -o-background-size: cover;
 
 }
-/* intro background properties end */
+/* End intro background properties end */
+
+
+
+/* start page 2 subtitle size */
+.page-2-subtitle-size{
+    font-size: 2em;
+}
+/* end page 2 subtitle size */
+
+
+
+/* Start Div 2 text Padding */
+.page-2-text-padding {
+    padding-top: 9em;
+}
+/* End Div 2 text Padding */
+
+
+/* Start Section 2 Div Background */
+.section-2-background {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/pagetwo.jpeg) no-repeat center center scroll;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/* End Section 2 Div Background */
+
+
+/* Start Section 3 Div Background */
+.section-3-background {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/phone.jpeg) no-repeat center center scroll;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/* End Section 3 Div Background */
+
+/* Start Div 3 text Padding */
+.page-3-text-padding {
+    padding-top: 6em;
+}
+/* End Div 3 text Padding */
 
 
 
