@@ -27,7 +27,6 @@ body {
 .intro-btn-padding{
     position: absolute;
     top: 90%;
-
 }
 /* End Intro Button Padding Top*/
 
@@ -69,7 +68,7 @@ body {
 /* Start Intro Text Padding */
 .text-intro-padding{
     position: relative;
-    top: 6em;
+    top: 14em;
 }
 /* End Intro Text Padding */
 
@@ -89,6 +88,24 @@ body {
 }
 /* End of 6Pro Navbar Logo Properties */
 
+/* start request quote button */
+.request-btn {
+    border-color: white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+
+    border: 9px;
+    border-radius: 300px;
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+
+    padding: 15px 30px;
+}
+/* end request quote button */
 
 /* Start intro button properties start */
 .btn-dark:hover,
