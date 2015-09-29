@@ -252,6 +252,21 @@ body {
 }
 /* end write to us icon */
 
+/* start text align for contact info */
+.contact-text-alignment {
+    text-align: center;
+}
+/* end text align for contact info */
+
+/* start contact info icon padding */
+.contact-icon-padding {
+    padding-left: 1em;
+    padding-top: 1em;
+}
+/* end contact info icon padding */
+
+
+
 .rowHeight{
     height: 100%;
 }
