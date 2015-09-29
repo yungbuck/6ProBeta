@@ -245,6 +245,13 @@ body {
 }
 /* end contact text title padding */
 
+/* start write to us icon */
+.write-to-us-btn-padding {
+    position: absolute;
+    top: 80%;
+}
+/* end write to us icon */
+
 .rowHeight{
     height: 100%;
 }
