@@ -224,9 +224,26 @@ body {
 }
 /* End Div 4 text Padding */
 
+/* Start Contact Page Background */
+.contact-background{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/snow.jpg) no-repeat center center scroll;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/* End Contact Page Background */
 
-
-
+/* start contact text title padding */
+.contact-text-title-padding{
+    padding-top: 3em;
+}
+/* end contact text title padding */
 
 .rowHeight{
     height: 100%;
