@@ -93,5 +93,102 @@
         </div>
 <!-- end write to us button -->
         </header>
+
+    <!-- start footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center foottext">
+                    <br>
+                    <img src="img/6Pro2.png" class="logo">
+                    <br>
+                    <H1>Professional Web Development</H1>
+                    <ul class="list-inline">
+                        <li><i class="..."></i><a href="...">Latest Work</a></li>
+                        <li><i class="..."></i><a href="...">Request Quote</a></li>
+                        <li><i class="..."></i><a href="...">Contact Us</a></li>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-behance fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-google-plus fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <br>
+                    <p class="text-muted">6Pro is a professional Web Development firm based in Southern California</p>
+                    <ul class="list-inline">
+                        <li class="text-muted">Email: Nicholas.AlexanderCEO@gmail.com</li>
+                        <li class="text-muted">Phone: (805) 814-5618</li>
+                    </ul>
+                    <p class="text-muted">Copyright &copy; 6Pro 2015</p>
+                    <ul class="list-inline">
+                        <li class="text-muted"><a href="...">Privacy Policy</a></li>
+                        <li class="text-muted"><a href="...">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- end footer -->
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+        // Closes the sidebar menu
+        $("#menu-close").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+
+        // Opens the sidebar menu
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+
+        // Scrolls to the selected menu item on the page
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+
 </body>
 </html>
