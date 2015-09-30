@@ -310,17 +310,26 @@ body {
 .design-section-2-background{
     display: table;
     position: relative;
-
+    background-color: turquoise;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-color: turquoise;
-    height: 720px;
-    width: 2279px;
+    height: 100%;
+    width: 100%;
 }
 /*  end design html section 2 design explanation */
+
+
+
+.design-section-2-padding{
+    padding-top: 3em;
+}
+
+
+
+
 
 .rowHeight{
     height: 100%;
