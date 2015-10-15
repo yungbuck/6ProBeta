@@ -7,7 +7,7 @@ body {
 /* Start Cursive Font */
 .big-cursive {
     font-family: 'Dancing Script', cursive;
-    font-size: 8em;
+    font-size: 4em;
 }
 /* End Cursive Font */
 
@@ -19,14 +19,15 @@ body {
 }
 /* End Custom Intro Button */
 
-
+.whiteFont {
+    color:white;
+}
 
 
 
 /* Start Intro Button Padding Top*/
 .intro-btn-padding{
-    position: absolute;
-    top: 90%;
+    padding-top: 9em;
 }
 /* End Intro Button Padding Top*/
 
@@ -67,8 +68,7 @@ body {
 
 /* Start Intro Text Padding */
 .text-intro-padding{
-    position: relative;
-    top: 14em;
+    padding-top: 10em;
 }
 /* End Intro Text Padding */
 
@@ -124,7 +124,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/newyork.jpg) no-repeat center center scroll;
+    background: url(../img/noon2.jpg) no-repeat center center scroll;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -283,7 +283,7 @@ body {
 
 /* start contact text title padding */
 .design-text-title-padding{
-    padding-top: 7em;
+    padding-top: 3em;
 }
 /* end contact text title padding */
 
@@ -310,27 +310,112 @@ body {
 .design-section-2-background{
     display: table;
     position: relative;
-    background-color: turquoise;
+    width: 100%;
+    height: 100%;
+    background: url(../img/redblock.jpg) no-repeat center center scroll;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 100%;
-    width: 100%;
 }
 /*  end design html section 2 design explanation */
-
-
-
-.design-section-2-padding{
-    padding-top: 3em;
+.red {
+    background-color: red;
 }
+/* start design section 2 background */
+.design-section-3-background{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/hands.jpeg) no-repeat center center scroll;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/* end design section 2 background */
+
+/* Start Cursive Font Property no size selected*/
+.cursive {
+    font-family: 'Dancing Script', cursive;
+}
+/* end cursive font property */
+
+/* start design information padding */
+.design-information-padding{
+    padding-top: 5em;
+}
+/* end design information padding */
 
 
+/* start design section 2 title padding*/
+.design-section2-title-padding {
+    padding-top: 4em;
+}
+/* end design section 2 title padding*/
 
-
-
+/* start about section 1 background */
+.about-section-1-background {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/coffee.jpg) no-repeat center center scroll;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/* end about section 1 background */
 .rowHeight{
     height: 100%;
 }
+
+/* start bold font weight */
+.bold {
+    font-weight: bold;
+}
+/* end bold font weight */
+
+
+
+/* start about section text padding */
+.about-section-1-text-padding {
+    padding-top: 4em;
+}
+/* end about section text padding */
+
+
+/* start of about section 2 background */
+.about-section-2-background {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/jellyfish.jpg) no-repeat center center scroll;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/* end of about section 2 background */
+
+/* start about section 3 background */
+.about-section-3-background {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/spacecircle.jpg) no-repeat center center scroll;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/* end about section 3 background */
