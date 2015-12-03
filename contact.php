@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>6Pro</title>
+    <title>Pro</title>
 
     <!-- start of links-->
 
@@ -19,6 +19,8 @@
     <!-- Custom CSS -->
     <link href="css/6pro.css" rel="stylesheet">
 
+    <!-- icon for website -->
+    <link rel="icon" href="6Proicon.ico">
 
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Oswald:700,400,300' rel='stylesheet' type='text/css'>
@@ -39,96 +41,89 @@
 </head>
 
 <body>
-<header class="about-section-1-background">
+
+<!-- start of intro div -->
+<header class="thankyou-background">
     <!-- start of navbar -->
-    <nav class="navbar navbar-transparent navbar-fixed-top">
-        <a class="navbar-brand" href="index.html">
-            <img alt="Brand" src="img/6Pro2.png" class="logo">
-        </a>
+    <div class="container">
+        <nav class="navbar navbar-transparent navbar-fixed-top">
 
-        <a id="menu-toggle" href="#" class="btn about-menu-btn-color btn-lg toggle"><i class="fa fa-bars fa-2x"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <a id="menu-close" href="#" class="btn menu-btn-color-2 btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-                <li class="sidebar-brand">
-                    <a href="index.html"  onclick = $("#menu-close").click(); ><img class="logo" src="img/6Pro2.png"></a>
-                </li>
-                <br>
-                <li>
-                    <a href="index.html" onclick = $("#menu-close").click(); ><i class="fa fa-home"></i> Home</a>
-                </li>
-                <br>
-                <li>
-                    <a href="about.html" onclick = $("#menu-close").click(); ><i class="fa fa-book"></i> About</a>
-                </li>
-                <br>
-                <li>
-                    <a href="design.html" onclick = $("#menu-close").click(); ><i class="fa fa-paint-brush"></i> Design</a>
-                </li>
-                <br>
-                <li>
-                    <a href="request.html" onclick = $("#menu-close").click(); ><i class="fa fa-tag"></i> Quote</a>
-                </li>
-                <br>
-                <li>
-                    <a href="contact.html" onclick = $("#menu-close").click(); ><i class="fa fa-phone"></i> Contact</a>
-                </li>
-                <br>
-                <li>
-                    <a href="..." onclick = $("#menu-close").click(); ><i class="fa fa-archive"></i> Portfolio</a>
-                </li>
-                <br>
-                <li>
-                    <h4>Connect with us!</h4>
-                    <a href="https://www.facebook.com/6Pro-Professional-Web-Development-1512492929070772/" onclick = $("#menu-close").click(); ><i class="fa fa-facebook fa-2x"></i>&nbsp;Facebook</a>
-                    <a href="..." onclick = $("#menu-close").click(); ><i class="fa fa-instagram fa-2x"></i>&nbsp;Instagram</a>
-                    <a href="https://twitter.com/6ProFirm" onclick = $("#menu-close").click(); ><i class="fa fa-twitter fa-2x"></i>&nbsp;Twitter</a>
-                </li>
-            </ul>
+            <a class="navbar-brand" href="index.html">
+                <img ahref="index.html" alt="Brand" src="img/6ProWhite.png" class="logo">
+            </a>
+
+
+
+            <a id="menu-toggle" href="#" class="btn menu-btn-color btn-lg toggle"><i class="fa fa-bars fa-2x"></i></a>
+            <nav id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <a id="menu-close" href="#" class="btn menu-btn-color-2 btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                    <li class="sidebar-brand">
+                        <a href="index.html"  onclick = $("#menu-close").click(); ><img class="logo" src="img/6Pro2.png"></a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="index.html" onclick = $("#menu-close").click(); ><i class="fa fa-home"></i> Home</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="about.html" onclick = $("#menu-close").click(); ><i class="fa fa-book"></i> About</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="design.html" onclick = $("#menu-close").click(); ><i class="fa fa-paint-brush"></i> Design</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="request.html" onclick = $("#menu-close").click(); ><i class="fa fa-tag"></i> Quote</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="contact.html" onclick = $("#menu-close").click(); ><i class="fa fa-phone"></i> Contact</a>
+                    </li>
+                    <br>
+                    <li>
+                       <a href="..." onclick = $("#menu-close").click(); ><i class="fa fa-archive"></i> Portfolio</a>
+                    </li>
+                    <br>
+                    <li>
+                       <h4>Connect with us!</h4>
+                       <a href="https://www.facebook.com/6Pro-Professional-Web-Development-1512492929070772/" onclick = $("#menu-close").click(); ><i class="fa fa-facebook fa-2x"></i>&nbsp;Facebook</a>
+                       <a href="..." onclick = $("#menu-close").click(); ><i class="fa fa-instagram fa-2x"></i>&nbsp;Instagram</a>
+                       <a href="https://twitter.com/6ProFirm" onclick = $("#menu-close").click(); ><i class="fa fa-twitter fa-2x"></i>&nbsp;Twitter</a>
+                    </li>
+                </ul>
+            </nav>
+
+
         </nav>
-
-
-    </nav>
+    </div>
     <!-- end of navbar -->
 
 
     <!-- Start Intro Text -->
     <div class="container">
-        <div class="about-section-1-text-padding col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-11 col-sm-11 col-md-5 col-lg-5">
-            <h1>We create web presences suitable for you to advertise <span class="bold">your</span> services or products in a professional manner</h1>
+        <div class="text-center text-intro-padding black-text-shadow">
+            <h1 style="color: white" class="big-cursive">Thank You</h1>
+            <h4 style="color: white" class="sub-title-size">We'll get back to you as soon as possible with your quote!</h4>
         </div>
     </div>
     <!-- End Intro Text -->
+
+
+
+    <!-- Start of scroll button -->
+    <div class="container">
+        <div class="text-center intro-btn-padding btn-group col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-0 col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <a href="index.html" class="request-btn">Go Back Home</a>
+        </div>
+    </div>
+
+    <!-- end of scroll button -->
 </header>
 
-<!-- start section 2 -->
-<div class="about-section-2-background">
-
-    <div class="container">
-        <div class="about-section-1-text-padding black-text-shadow col-xs-offset-1 col-sm-offset-1 col-md-offset-3 col-lg-offset-3 col-xs-11 col-sm-11 col-md-6 col-lg-6">
-            <h1 style="color: white">We strive to create adept & lasting impressions by establishing a genuine relationship with virtually all of our clients</h1>
-        </div>
-    </div>
-
-</div>
-
-<!-- end of section 2 -->
 
 
-<!-- start of section 3 -->
-
-<div class="about-section-3-background">
-
-    <div class="container">
-        <div class="text-center about-section-1-text-padding black-text-shadow col-xs-offset-1 col-sm-offset-1 col-md-offset-3 col-lg-offset-3 col-xs-11 col-sm-11 col-md-6 col-lg-6">
-            <h1 style="color: white">Let our team become your partner in revolutionizing your online identity</h1>
-            <h4 style="color: white">6Pro, a California Professional Web Development firm based in Santa Barbara</h4>
-        </div>
-    </div>
-
-</div>
-
-<!-- end of section 3 -->
 
 
 <!-- start footer -->
@@ -180,6 +175,36 @@
 
 <!-- end footer -->
 
+<!-- php -->
+
+<?php
+
+    $emailSubject = 'Quote Request';
+    $webMaster = '6ProQuote@gmail.com'; 
+    
+    /* Data Variables */ 
+    $clientEmail = $_POST['inputEmail'];
+    $clientName = $_POST['nameInput'];
+    $clientMessage = $_POST['messageInput'];
+    
+    $body = <<<EOD
+<br><hr><br>
+Email: $clientEmail <br>
+Name: $clientName   <br>
+Message: $clientMessage <br>
+EOD;
+
+$headers = "From: $clientEmail\r\n";
+$headers .= "Content-type: text/html\r\n";
+mail($webMaster, $emailSubject, $body, $headers);
+
+
+
+
+
+?>
+
+<!-- end php -->
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>

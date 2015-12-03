@@ -125,7 +125,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/noon2.jpg) no-repeat center center scroll;
+    background-color: white;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -430,7 +430,7 @@ body {
 /* start menu button classes and propeties */
 .menu-btn-color{
     border-radius: 0;
-    color: #fff;
+    color: black;
     background-color: transparent;
 }
 
